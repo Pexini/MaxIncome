@@ -17,6 +17,7 @@ class StatisticsServiceTest {
 
         Assertions.assertEquals(expected, actual);
     }
+
     @Test
     void findMiddleMax() {
         StatisticsService service = new StatisticsService();
